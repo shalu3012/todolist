@@ -1,0 +1,8 @@
+<%- include('header'); -%>
+    <div class="error">
+        <h1 class="errorMesaage"><img src="https://i.imgur.com/GnyDvKN.png" alt=""><%=errorMessage%></h1>
+        <% listTitle ==="Today"?listTitle="/":listTitle="/"+listTitle %>
+        <a href="<%=listTitle%>" class="listLink">Click here to go back to your list's page</a>
+    </div>
+   
+<%- include('footer'); -%>
